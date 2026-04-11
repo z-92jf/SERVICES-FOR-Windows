@@ -67,3 +67,72 @@ SERVICES FOR Windows （以下简称SFW）是什么呢？它是用c++技术基�
 
 如果您想联系z_92jf，联系Email: z_92jf@hotmail.com
 
+
+# SERVICES FOR Windows
+
+> Declaration: The author of this article is Chinese!!!
+
+SERVICES FOR Windows, literally means services for Windows. This project actually started in October 2025, but only officially entered Github in April 2026.
+
+## Preface
+
+What is SERVICES FOR Windows (abbreviated as SFW)? It's a console-like software developed using C++ technology based on the Windows x64 system, with a very rudimentary user interface design that only allows selection of options via inputting numeric digits. This project is developed by "Z-92jf Addition Studio".
+
+## Introduction
+
+You can browse the website we developed using Github Pages service: A Quick Toolbox for Windows System Services
+
+This is a toolbox for Windows x64 version, targeting Windows 11 (as of April 8, 2024). Future development will include support for Windows x32 and Windows 10.
+
+More information can be found on the website!
+
+## About the Website
+
+Why talk so much about the website? Because the development location is in China, where loading from Github is slow. Therefore, most content will be placed on the website.
+
+## About Source Code
+
+Is our application open-source?
+
+Our application is not open-source, but it is completely free! Moreover, all projects from Addition Studio are permanently free!
+
+## Addition Studio
+
+What is this?
+
+Addition Studio, full name "Z-92jf", was founded by "z_92jf". Click to view my personal homepage: z_92jf's Personal Homepage.
+
+You'll notice that there's not much on my personal homepage. Guess for yourself!
+
+To learn more about Addition Studio, please visit our website.
+
+## Installation and Usage
+
+Finally, we get to the key part!!!
+
+So how do we install our application? We will release detailed installation tutorials on our official website later. However, here we will explain in detail.
+
+### Step 1: Download
+
+Download the installer package of your preferred version from our repository, and extract it.
+
+Double-click Setup xxxxx.exe and follow the instructions to download. It is recommended to run as administrator. The installation directory comes with some source code.
+
+### Step 2: Usage
+
+After downloading, everything is ready! You can double-click the desktop shortcut (if available), or search for SERVICES FOR Windows, find main.exe, and double-click to run.
+
+## Important Notice
+
+Of course, this is very important!
+
+Many people won't notice the READ folder (either READ ME or READ-ME) in the installation directory. Actually, there are detailed instructions inside!
+
+## Final Words
+
+If you like it, don't forget to give our project a Star, thank you!
+
+## Contact Us
+If you want to contact Addition Studio, email: Zhq_jf@outlook.com
+
+If you want to contact z_92jf, email: z_92jf@hotmail.com
