@@ -1,0 +1,19 @@
+欢迎使用弹窗刷屏程序！
+本程序由c++编写，请在Windows编译环境运行，暂时不支持Mac以及其它编译环境
+z_92jf将持续更新！
+双击exe文件运行！
+您可以输入一个参数，以调整弹出的窗口数量！
+本程序暂无紧急停止功能，请谨慎输入参数！
+参数超过100将出发提醒措施，请输入小于1000的参数，参数必须大于0
+希望这个程序可以帮助到您！
+本程序由z_92jf单独编写，若有侵权，请联系 z_92jf@hotmail.com
+
+Welcome to the pop-up screen brushing program!
+This program is written in C++and should be run in a Windows compilation environment. It does not currently support Mac or other compilation environments
+Z_92jf will continue to be updated!
+Double click the exe file to run!
+You can input a parameter to adjust the number of pop-up windows!
+This program currently does not have an emergency stop function, please enter parameters carefully!
+If the parameter exceeds 100, a reminder measure will be taken. Please enter a parameter less than 1000, which must be greater than 0
+I hope this program can help you!
+This program is written separately by z_92jf. If there is any infringement, please contact z_92jf@hotmail.com
