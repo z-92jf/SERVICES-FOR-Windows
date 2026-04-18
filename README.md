@@ -19,12 +19,6 @@ SERVICES FOR Windows （以下简称SFW）是什么呢？它是用c++技术基�
 
 为什么要讲那么多关于网站呢？因为开发地点位于中国，加载github较慢。所以大多数内容会放在网站中。
 
-## 关于源代码
-
-> 我们的应用开源吗？
-
-我们的应用不开源，但==完全免费==！并且，加法工作室的所有项目都==永久免费==！
-
 ## 加法工作室
 
 > 这是个什么东西？
@@ -89,12 +83,6 @@ More information can be found on the website!
 ## About the Website
 
 Why talk so much about the website? Because the development location is in China, where loading from Github is slow. Therefore, most content will be placed on the website.
-
-## About Source Code
-
-Is our application open-source?
-
-Our application is not open-source, but it is completely free! Moreover, all projects from Addition Studio are permanently free!
 
 ## Addition Studio
 
