@@ -12,7 +12,7 @@ SERVICES FOR Windows （以下简称SFW）是什么呢？它是用c++技术基�
 
 1. 可以浏览我们基于Github提供的Pages服务开发的网页[一个为Windows系统服务的快速工具箱](https://z-92jf.github.com)
 
-2. 这是一款基于Windows x64版本的面向Windows 11的工具箱（截至2024年4月8日），后续将开发基于Windows x32包括Windows 10的
+2. 这是一款基于Windows x64版本的面向Windows 11的工具箱（截至2026年4月8日），后续将开发基于Windows x32包括Windows 10的
 3. 更多内容详见网站！
 
 ## 关于网站
@@ -76,7 +76,7 @@ What is SERVICES FOR Windows (abbreviated as SFW)? It's a console-like software 
 
 You can browse the website we developed using Github Pages service: A Quick Toolbox for Windows System Services
 
-This is a toolbox for Windows x64 version, targeting Windows 11 (as of April 8, 2024). Future development will include support for Windows x32 and Windows 10.
+This is a toolbox for Windows x64 version, targeting Windows 11 (as of April 8, 2026). Future development will include support for Windows x32 and Windows 10.
 
 More information can be found on the website!
 
