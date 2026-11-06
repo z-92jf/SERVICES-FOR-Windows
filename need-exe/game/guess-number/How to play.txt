@@ -1,0 +1,23 @@
+欢迎游玩猜数字2.0版本！
+z_92jf将持续更新！
+双击exe文件运行！
+游戏内目录使用说明：
+qingkong表示清空游戏数据
+exit退出游戏
+chakan查看分数
+play开始游玩
+输入对应序号并回车表示一次操作
+尽情游玩吧！
+本游戏参考了某些代码，如有侵权，请联系 z_92jf@hotmail.com
+
+Welcome to play Guess Numbers 2.0 version!
+Z_92jf will continue to be updated!
+Double click the exe file to run!
+Instructions for using in-game directories:
+Qingkong means clearing game data
+Exit the game
+Chakan View Score
+Play Start playing
+Enter the corresponding serial number and press enter to indicate one operation
+Play to your heart's content!
+This game references certain code. If there is any infringement, please contact z_92jf@hotmail.com
