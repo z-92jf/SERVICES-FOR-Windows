@@ -1,0 +1,29 @@
+感谢您下载“俄罗斯方块4.0”!
+以下是基本的操作说明：
+一、 输入您需要执行的操作编号，再摁下回车键以执行！
+二、请在Windows 10及更高版本的环境下运行！
+以下是游戏玩法介绍：
+一、进入游戏后按一个1至3的数字选择难度，数字越大难度越高
+二、游戏时：
+-1-按↑键旋转方块
+-2-按↓键加速下落
+-3-按←或→移动方块
+您可以再您的键盘上找的这四个按键，如果您使用的是外接键盘，您应该可以找到；如果您使用的是笔记本电脑，您一般可以在右下角找到应有PgUp以及其它小字的箭头按键
+本游戏不支持wasd移动方案，敬请理解
+本游戏将有z_92jf持续更新！
+本游戏参考了一些代码，如有侵权，请联系 z_92jf@hotmail.com
+
+Thank you for downloading 'Tetris 4.0'!
+The following are basic operating instructions:
+1、 Enter the operation number you need to perform and press Enter to execute it!
+2、 Please run on Windows 10 and higher versions!
+Here is an introduction to the gameplay:
+1、 After entering the game, press a number from 1 to 3 to choose the difficulty level. The higher the number, the higher the difficulty level
+2、 During the game:
+-1- Press the ↑ key to rotate the block
+-2- Press the ↓ key to accelerate the descent
+-3- Press ← or → to move the block
+You can find these four keys on your keyboard. If you are using an external keyboard, you should be able to find them; If you are using a laptop, you can usually find arrow keys with PgUp and other small characters in the bottom right corner
+This game does not support the WASD mobile solution, please understand
+This game will have z_92jf continuously updated!
+This game referenced some code. If there is any infringement, please contact z_92jf@hotmail.com

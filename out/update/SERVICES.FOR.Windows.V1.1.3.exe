@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>页面不存在 · SERVICES FOR Windows</title><meta name="description" content="SERVICES FOR Windows 是一个为 Windows 系统服务的综合工具，集成账户管理、小游戏大厅、多功能管理器与进制转换等实用功能。"><meta name="keywords" content="SERVICES FOR Windows, Windows, 工具箱, 官网, 服务, 快捷方式, 进制转换"><link rel="canonical" href="https://sfw.us.ci/404/"><link rel="icon" type="image/svg+xml" href="/favicon.ico"><!-- 分享到微信 / QQ / 微博 时显示的卡片信息 --><meta property="og:type" content="website"><meta property="og:title" content="页面不存在 · SERVICES FOR Windows"><meta property="og:description" content="SERVICES FOR Windows 是一个为 Windows 系统服务的综合工具，集成账户管理、小游戏大厅、多功能管理器与进制转换等实用功能。"><meta property="og:url" content="https://sfw.us.ci/404/"><!-- 分享缩略图。在 site.ts 里填了 site.ogImage 才会输出这一行，没填就跳过 --><meta name="twitter:card" content="summary"><!--
+			下面这段脚本必须放在 <head> 里、而且必须是内联的。
+			它的唯一任务是：在页面刚刚开始渲染时就把深浅色状态定下来。
+			如果放到页面底部再执行，深色模式用户会先看到一瞬间的白屏
+			（俗称「闪白」），体验很糟。
+
+			★ 这里【一定会】给出一个明确的值（light 或 dark），
+			  不会出现「没有 data-theme 属性」的中间状态。
+			  原因有两个：
+			  ① 评论组件（Waline）判断夜间模式用的是
+			     「html[data-theme="dark"] 这个选择器有没有命中」，
+			     属性缺失时它会误判成浅色 —— 系统是深色、用户又没手动切过时就会出错。
+			  ② 以前靠 CSS 的 @media (prefers-color-scheme) 兜底，
+			     导致每个组件都要写「默认态 + 显式态」两套规则，
+			     已经因此踩过两次坑（导航栏双图标、页脚大字图不跟着切）。
+			     现在状态唯一了，组件只用写一套。
+		--><script>
+			(function () {
+				var root = document.documentElement;
+				var saved = null;
+				try {
+					saved = localStorage.getItem('sfw-theme');
+				} catch (e) {
+					/* 隐私模式下 localStorage 可能不可用，忽略即可 */
+				}
+
+				// 有存过的就用存过的，没存过就看系统
+				var theme =
+					saved === 'dark' || saved === 'light'
+						? saved
+						: window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+							? 'dark'
+							: 'light';
+
+				root.setAttribute('data-theme', theme);
+
+				// 用户【没手动切过】时，跟着系统的深浅色变化实时更新。
+				// 一旦手动切过（localStorage 里有值），就不再跟随系统。
+				if (window.matchMedia) {
+					try {
+						window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+							var pick = null;
+							try {
+								pick = localStorage.getItem('sfw-theme');
+							} catch (err) {
+								/* 忽略 */
+							}
+							if (pick === 'dark' || pick === 'light') return;
+							root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+						});
+					} catch (e) {
+						/* 老浏览器不支持 addEventListener 就算了 */
+					}
+				}
+			})();
+		</script><style>.notfound[data-astro-cid-ibpinaeu]{text-align:center;padding:60px 24px}.code[data-astro-cid-ibpinaeu]{color:color-mix(in srgb, var(--brand) 30%, transparent);font-size:clamp(4rem,14vw,7rem);font-weight:600;line-height:1;font-family:var(--font-mono);margin:0}.title[data-astro-cid-ibpinaeu]{margin:12px 0 10px;font-size:1.6rem}.actions[data-astro-cid-ibpinaeu]{flex-wrap:wrap;justify-content:center;gap:12px;margin-top:32px;display:flex}
+</style><link rel="stylesheet" href="/_astro/BaseLayout.Bp7lfB57.css"></head> <body class> <header class="site-nav" data-astro-cid-wpvy4v7s> <div class="container nav-inner" data-astro-cid-wpvy4v7s> <!-- ① 左：站点标识。点击回到欢迎页（而不是直接回首页） --><a href="/" class="brand" data-astro-cid-wpvy4v7s>  <img class="brand-mark" src="/logo.png" alt="" width="34" height="34" data-astro-cid-wpvy4v7s> <span class="brand-text" data-astro-cid-wpvy4v7s>SERVICES FOR Windows</span> </a> <!-- ② 中：导航菜单。
+		     这里【只放菜单项】，不放其它东西 —— 这样它才能严格居中于整个导航栏。
+		     （深浅色切换已挪到右侧那一组，否则它会把菜单整体往左挤一截） --> <nav class="nav-links" id="navLinks" data-astro-cid-wpvy4v7s> <a href="/top" class="nav-link" data-astro-cid-wpvy4v7s> 首页 </a><a href="/news" class="nav-link" data-astro-cid-wpvy4v7s> 新闻 </a><a href="/download" class="nav-link" data-astro-cid-wpvy4v7s> 下载 </a><a href="/changelog" class="nav-link" data-astro-cid-wpvy4v7s> 更新日志 </a><a href="/help" class="nav-link" data-astro-cid-wpvy4v7s> 帮助 </a><a href="/about" class="nav-link" data-astro-cid-wpvy4v7s> 关于我们 </a> </nav> <!-- ③ 右：立即下载 → 深浅色切换 → 移动端汉堡按钮。
+		     顺序按「动作在最前、工具在后面」排：
+		     立即下载（最常用的动作）→ 主题切换（设置类，放最后）。
+		     ★ 想换顺序：直接把下面这两个元素上下挪动即可，CSS 不用动。 --> <div class="nav-right" data-astro-cid-wpvy4v7s> <a class="btn btn-primary btn-sm nav-cta" href="https://github.com/z-92jf/SERVICES-FOR-Windows/releases/latest/download/Setup-SERVICES-FOR-Windows-V1.1.1.exe" target="_blank" rel="noopener" data-astro-cid-wpvy4v7s>
+立即下载
+</a> <!-- 深浅色切换按钮 --> <button class="nav-icon-btn theme-toggle" type="button" id="themeToggle" aria-label="切换深浅色模式" title="切换深浅色模式" data-astro-cid-wpvy4v7s> <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" data-astro-cid-wpvy4v7s> <circle cx="12" cy="12" r="4" data-astro-cid-wpvy4v7s></circle> <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" data-astro-cid-wpvy4v7s></path> </svg> <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-wpvy4v7s> <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" data-astro-cid-wpvy4v7s></path> </svg> </button> <!-- 移动端的汉堡按钮。桌面端被 CSS 隐藏 --> <button class="nav-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false" id="navToggle" data-astro-cid-wpvy4v7s> <span data-astro-cid-wpvy4v7s></span><span data-astro-cid-wpvy4v7s></span><span data-astro-cid-wpvy4v7s></span> </button> </div> </div> </header><script type="module">var e=document.getElementById(`navToggle`),t=document.getElementById(`navLinks`);e?.addEventListener(`click`,()=>{let n=t?.classList.toggle(`open`);e.setAttribute(`aria-expanded`,String(!!n))}),document.getElementById(`themeToggle`)?.addEventListener(`click`,()=>{let e=document.documentElement,t=(e.getAttribute(`data-theme`)?e.getAttribute(`data-theme`)===`dark`:window.matchMedia(`(prefers-color-scheme: dark)`).matches)?`light`:`dark`;e.setAttribute(`data-theme`,t);try{localStorage.setItem(`sfw-theme`,t)}catch{}});</script> <!-- 每个页面的具体内容会填进这个 slot --> <main>  <section class="section" data-astro-cid-ibpinaeu> <div class="container notfound" data-astro-cid-ibpinaeu> <p class="code" data-astro-cid-ibpinaeu>404</p> <h1 class="title" data-astro-cid-ibpinaeu>你来到了知识的荒漠...</h1> <p class="text-muted" data-astro-cid-ibpinaeu>
+这里什么也没有。
+</p> <div class="actions" data-astro-cid-ibpinaeu> <a class="btn btn-primary" href="/top" data-astro-cid-ibpinaeu>回到首页</a> <a class="btn btn-outline" href="/download" data-astro-cid-ibpinaeu>前往下载</a> </div> </div> </section>  </main> <footer class="site-footer" data-astro-cid-jo6i4
